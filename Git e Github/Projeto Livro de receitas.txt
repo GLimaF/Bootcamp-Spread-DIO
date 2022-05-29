@@ -1,0 +1,3 @@
+Durante o curso eu criei um repositório chamado "Livro de Receitas"
+que foi adicionado ao Github e pode ser encontrado através do link:
+https://github.com/GLimaF/livro-receitas 
