@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="G_Lim"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-05-17 09:28:11 "/>
+        <attribute name="created" value="R19MaW07TEFQVE9QLU42SDNHT0U4OzIwMjItMDUtMTc7IjA5OjIxOjAyICI7MjY4Mw=="/>
+        <attribute name="edited" value="R19MaW07TEFQVE9QLU42SDNHT0U4OzIwMjItMDUtMTc7IjA5OjI4OjExICI7MTsyNzk4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Nota1, Nota2, Nota3, Nota4, Media" type="Real" array="False" size=""/>
+            <input variable="Nota1"/>
+            <input variable="Nota2"/>
+            <input variable="Nota3"/>
+            <input variable="Nota4"/>
+            <assign variable="Media" expression="(Nota1+Nota2+Nota3+Nota4)/4"/>
+            <declare name="Nome" type="String" array="False" size=""/>
+            <output expression="&quot;Digite seu nome: &quot;" newline="True"/>
+            <input variable="Nome"/>
+            <output expression="Nome &amp; &quot; sua m&#233;dia &#233;: &quot; &amp; media" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
